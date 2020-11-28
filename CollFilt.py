@@ -14,8 +14,7 @@ def find_similar_projects(dataset, project, num_projects):
     if project not in dataset:
         raise TypeError('Cannot find ' + project + ' in the dataset')
 
-    scores = np.array([[x, pearson_score(dataset, project, 
-            x)] for x in dataset if x != project])
+    scores = np.array([[x, pearson_score(dataset, project, x)] for x in dataset if x != project])
 
     scores_sorted = np.argsort(scores[:, 1])[::-1]
 
@@ -33,7 +32,7 @@ if __name__=='__main__':
         data = json.loads(f.read())
 
     print('\nprojects similar to ' + project + ':\n')
-    similar_projects = find_similar_projects(data, project, 3) 
+    similar_projects = find_similar_projects(data, project, 2) 
     print('project\t\t\tSimilarity score')
     print('-'*41)
     for item in similar_projects:

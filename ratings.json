@@ -1,44 +1,38 @@
 {
-    "DOGMA": 
-    {
-        "David Smith": 4,
+    "DOGMA": {
+        "David Smith": 4.2,
         "Megan Faller": 4.5,
         "Bill Duffy": 3.0,
         "Brenda Peterson": 4.5,
-        "Samuel Miller": 1.0
+        "Samuel Miller": 3.0
     },
-    "AWE": 
-    {
+    "AWE": {
         "Megan Faller": 3.0,
         "Brenda Peterson": 1.5,
-        "Samuel Miller": 1.0,
+        "Samuel Miller": 2.8,
         "Julie Hammel": 2.0,
         "Clarissa Jackson": 5.0,
-        "Adam Cohen": 4.5 
+        "Adam Cohen": 4.5
     },
-    "ABV": 
-    {
+    "ABV": {
         "David Smith": 4.5,
         "Megan Faller": 5.0,
         "Bill Duffy": 4.5,
-        "Julie Hammel": 1.0
+        "Julie Hammel": 1.4
     },
-    "Geek4Fun": 
-    {
+    "Geek4Fun": {
         "Brenda Peterson": 3.5,
         "Samuel Miller": 5.0,
-        "Clarissa Jackson": 1.0,
+        "Clarissa Jackson": 2.4,
         "Chris Duncan": 5.0,
-        "Carol Andersen": 1.0 
+        "Carol Andersen": 3.0
     },
-    "Tiem": 
-    {
-       "Clarissa Jackson": 2.5,
-       "Adam Cohen": 4.5,
-       "Chris Duncan": 3.0
+    "Tiem": {
+        "Clarissa Jackson": 2.5,
+        "Adam Cohen": 4.5,
+        "Chris Duncan": 3.0
     },
-    "HARP": 
-    {
+    "HARP": {
         "Julie Hammel": 5.0,
         "Adam Cohen": 4.5,
         "Carol Andersen": 4.0,
@@ -46,68 +40,60 @@
         "Frank Booth": 1.0,
         "Chan Lin": 1.5
     },
-    "Squbo": 
-    {
-       "David Smith": 3.5,
-       "Chris Duncan": 3.0,
-       "Carol Andersen": 1.0,
-       "Norman Bates": 4.5,
-       "Roman Holiday": 3.0
+    "Squbo": {
+        "David Smith": 3.5,
+        "Chris Duncan": 3.0,
+        "Carol Andersen": 1.0,
+        "Norman Bates": 4.5,
+        "John Lee": 3.0
     },
-    "Spiele": 
-    {
-       "Bill Duffy": 1.5,
-       "Norman Bates": 4.5,
-       "Frank Booth": 1.8,
-       "Mia Brown": 2.8
+    "Spiele": {
+        "Bill Duffy": 1.5,
+        "Norman Bates": 4.5,
+        "Frank Booth": 1.8,
+        "Mia Brown": 2.8
     },
-    "Diposta":
-    {
+    "Diposta": {
         "Frank Booth": 4.8,
         "Chan Lin": 2.4,
         "Cady Max": 3.0,
         "Noah Cross": 4.0
     },
-    "Gantish":
-    {
+    "Gantish": {
         "Chan Lin": 3.6,
         "Sam Athwal": 2.5,
         "Cady Max": 4.5
     },
-    "Coding School":
-    {
+    "Coding School": {
         "Cady Max": 2.5,
         "Scott Becker": 3.2,
         "Randy Dee": 4.7,
         "Amy Dunne": 1.8
     },
-    "PFSecurity":
-    {
+    "PFSecurity": {
         "Randy Dee": 2.6,
         "Sam Athwal": 4.0,
         "Mia Brown": 3.3
     },
-    "Collateral":
-    {
+    "Collateral": {
         "Sam Athwal": 4.6,
         "Randy Dee": 4.0,
         "Noah Cross": 2.1
     },
-    "SurfEasy":
-    {
+    "SurfEasy": {
         "Scott Becker": 3.7,
         "Mia Brown": 1.4,
         "Noah Cross": 5.0
     },
-    "Sympic":
-    {
+    "Sympic": {
         "Scott Becker": 3.5,
         "Amy Dunne": 5.0,
         "Alex Forrest": 2.4
     },
-    "GiftPrompt":
-    {
+    "GiftPrompt": {
         "Amy Dunne": 4.7,
-        "Alex Forrest": 3.8
+        "Alex Forrest": 3.8,
+        "Noah Cross": 4.5,
+        "Bill Duffy": 4.2
     }
 }

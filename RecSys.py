@@ -34,14 +34,14 @@ def get_recommendations(dataset, input_project):
     if len(overall_scores) == 0:
         return ['No recommendations possible']
 
-    movie_scores = np.array([[score/similarity_scores[item], item] 
+    emolyee_scores = np.array([[score/similarity_scores[item], item] 
             for item, score in overall_scores.items()])
 
-    movie_scores = movie_scores[np.argsort(movie_scores[:, 0])[::-1]]
+    emolyee_scores = emolyee_scores[np.argsort(emolyee_scores[:, 0])[::-1]]
 
-    movie_recommendations = [movie for _, movie in movie_scores]
+    emolyee_recommendations = [emolyee for _, emolyee in emolyee_scores]
 
-    return movie_recommendations
+    return emolyee_recommendations
  
 if __name__=='__main__':
     args = build_arg_parser().parse_args()
@@ -53,6 +53,6 @@ if __name__=='__main__':
         data = json.loads(f.read())
 
     print("\Employee recommendations for " + project + ":")
-    movies = get_recommendations(data, project) 
-    for i, movie in enumerate(movies):
-        print(str(i+1) + '. ' + movie)
+    emolyees = get_recommendations(data, project) 
+    for i, emolyee in enumerate(emolyees):
+        print(str(i+1) + '. ' + emolyee)
