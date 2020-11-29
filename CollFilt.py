@@ -32,7 +32,7 @@ if __name__=='__main__':
         data = json.loads(f.read())
 
     print('\nprojects similar to ' + project + ':\n')
-    similar_projects = find_similar_projects(data, project, 2) 
+    similar_projects = find_similar_projects(data, project, 3) 
     print('project\t\t\tSimilarity score')
     print('-'*41)
     for item in similar_projects:
